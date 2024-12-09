@@ -9,7 +9,7 @@ My solution includes 5 parts:
 1. Preprocessing:
    + Convert raw data into a DataFrame with three columns: comment, aspect, and sentiment.
    + Use vncorenlp for segmentting words in comments.
-   + Aspects have 34 unique values and sentiment has 3 unique values so with each comment, I encode aspects and sentiment accordingly to np.array with dimension (34,4).
+   + Aspects have 34 unique values and sentiment has 3 unique values so with each comment, I encode aspects and sentiment accordingly to (34,4) np.array.
    + This is 4 with 3 representing sentiment labels (positive, negative, neutral) and 1 for aspect absence.
 2. Fine-tune model
    + I use tokenizer and model of PhoBERT-base.
