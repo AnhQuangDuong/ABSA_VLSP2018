@@ -1,6 +1,9 @@
 # ABSA_VLSP2018
 Aspect-Based Sentiment Analysis (ABSA) for hotel's reviews in Viet Nam using PhoBERT
 
+Example: Hơi xa trung tâm, bãi biển không được đẹp lắm. Tiện nghi khách sạn đầy đủ. Nhân viện thân thiện vui vẻ. Xung quanh khách sạn khá yên tĩnh, không đông vui cho lắm
+=> {LOCATION#GENERAL, negative}, {FACILITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
 You can see my solution in Kaggle: https://www.kaggle.com/code/duongquanganh/absa-vlsp2018-solution.
 
 The dataset and my reference is from : https://github.com/ds4v/absa-vlsp-2018.
